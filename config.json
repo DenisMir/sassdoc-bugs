@@ -1,0 +1,9 @@
+{
+  "force": true,
+  "interactive": false,
+  "groups": {
+    "see-reference-bug": "See reference bug",
+    "todo-bug": "TODO bug",
+    "requires-autofill-bug": "Requires autofill bug"
+  }
+}

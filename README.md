@@ -1,7 +1,7 @@
 Sassdoc Bugs
 ============
 
-Helper project for fixing some [https://github.com/SassDoc/sassdoc](SassDoc) bugs.
+Helper project for fixing some [SassDoc](https://github.com/SassDoc/sassdoc) bugs.
 
 Install Sassdoc
 ---------------

@@ -9,10 +9,7 @@
  *
  * @type Map
  */
-$reference: (
-  dummy-value: 1,
-  dummy-value: 2
-);
+$reference: (dummy-value: 1, dummy-value: 2);
 
 /**
  * Dummy One
@@ -20,10 +17,7 @@ $reference: (
  * @type Map
  * @see {Map} reference
  */
-$dummy-one: (
-  dummy-value: 1,
-  dummy-value: 2
-);
+$dummy-one: (dummy-value: 1, dummy-value: 2);
 
 /**
  * Dummy Two
@@ -31,7 +25,4 @@ $dummy-one: (
  * @type Map
  * @see {Map} reference
  */
-$dummy-two: (
-  dummy-value: 1,
-  dummy-value: 2
-);
+$dummy-two: (dummy-value: 1, dummy-value: 2);

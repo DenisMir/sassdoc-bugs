@@ -27,3 +27,10 @@ Documented bugs
 
 -	Look at [src/todo-bug.scss](src/todo-bug.scss)
 -	Issue: [https://github.com/SassDoc/sassdoc/issues/293](https://github.com/SassDoc/sassdoc/issues/293)
+
+### Requires autofill bug
+
+Autofill of `@requires` adds dependencies multiple times.
+
+-	Look at [src/todo-bug.scss](src/requires-autofill-bug.scss)
+-	Issue: [https://github.com/SassDoc/sassdoc/issues/293](https://github.com/SassDoc/sassdoc/issues/294)

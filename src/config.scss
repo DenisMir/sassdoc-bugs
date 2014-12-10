@@ -7,22 +7,19 @@
 /**
  * Reference
  *
- * @type Map
  */
-$reference: (dummy-value: 1, dummy-value: 2);
+$reference: 1;
 
 /**
  * Dummy One
  *
- * @type Map
- * @see {Map} reference
+ * @see $reference
  */
-$dummy-one: (dummy-value: 1, dummy-value: 2);
+$dummy-one: 2;
 
 /**
  * Dummy Two
  *
- * @type Map
- * @see {Map} reference
+ * @see $reference
  */
-$dummy-two: (dummy-value: 1, dummy-value: 2);
+$dummy-two: 3;

@@ -1,0 +1,28 @@
+/**
+* Requires autofill bug
+*
+* @author Denis Mir
+**/
+
+
+/**
+ * Some function that gets used from other mixins
+ */
+@function base() {}
+
+/**
+ * Some mixin that uses the `base` function multiple times
+ */
+@mixin fails() {
+  base();
+  base();
+}
+
+/**
+* Some mixin that uses the `base` function multiple times
+* @requires base
+*/
+@mixin works() {
+  base();
+  base();
+}

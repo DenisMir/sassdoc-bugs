@@ -49,11 +49,52 @@
 
         
         
+          <p class="sidebar__item  sidebar__item--sub-heading" data-slug="undefined-function"><a href="#undefined-function">functions</a></p>
+
+          
+          
+            <ul class="list-unstyled">
+            <li class="sidebar__item  sassdoc__item" data-name="base" data-type="function">
+              <a href="#function-base">base
+              
+              
+              </a>
+            </li>
+            </ul>
+          
+        
+        
+      
+        
+
+        
+        
+
+        
+        
           <p class="sidebar__item  sidebar__item--sub-heading" data-slug="undefined-mixin"><a href="#undefined-mixin">mixins</a></p>
 
           
           
             <ul class="list-unstyled">
+            <li class="sidebar__item  sassdoc__item" data-name="fails" data-type="mixin">
+              <a href="#mixin-fails">fails
+              
+              
+              </a>
+            </li>
+            
+          
+            
+            <li class="sidebar__item  sassdoc__item" data-name="works" data-type="mixin">
+              <a href="#mixin-works">works
+              
+              
+              </a>
+            </li>
+            
+          
+            
             <li class="sidebar__item  sassdoc__item" data-name="todomixin" data-type="mixin">
               <a href="#mixin-todomixin">todomixin
               
@@ -152,10 +193,474 @@
 
           
           
+            <section class="main__sub-section" id="undefined-function">
+              <h2 class="main__heading--secondary">functions</h2>
+
+              
+              
+                <section class="main__item  item" id="function-base">
+
+<h3 class="item__heading">
+  
+
+  <a class="item__name" href="#function-base">base</a>
+
+  
+
+  
+</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="relative  clear  code--collapsed">
+  <pre class="item__code  item__code--togglable  language-scss"
+    data-current-state="collapsed"
+    data-expanded="@function base() {  }"
+    data-collapsed="@function base() { ... }"><code>@function base() { ... }</code></pre>
+
+  
+</div>
+
+
+
+
+
+
+  
+    
+    
+  <h3 class="item__sub-heading">Description</h3>
+
+  <div class="item__description"><p>Some function that gets used from other mixins</p>
+</div>
+
+
+  
+    
+    <h3 class="item__sub-heading">Parameters</h3>
+
+
+
+  <p>None.</p>
+
+
+
+  
+    
+    
+
+  
+    
+    
+
+  
+    
+    
+
+  
+    
+    
+
+
+
+
+  
+    
+    
+
+
+
+  
+
+    
+      
+      <h3 class="item__sub-heading">Used by</h3>
+      <ul class="list-unstyled  list-inline">
+    
+
+    <li><a href="#mixin-fails"><code>fails</code></a></li>
+  
+
+
+
+  
+
+    
+
+    <li><a href="#mixin-fails"><code>fails</code></a></li>
+  
+
+
+
+  
+
+    
+
+    <li><a href="#mixin-works"><code>works</code></a></li>
+  
+
+
+
+
+</ul>
+
+
+  
+    
+    
+
+  
+    
+    
+
+
+
+
+  
+    
+    
+
+  
+    
+    
+  
+    
+    
+  <h3 class="item__sub-heading">Author</h3>
+
+  <ul class="list-unstyled">
+    
+      <li><p>Denis Mir</p>
+</li>
+    
+  </ul>
+
+
+  
+
+
+
+</section>
+              
+            </section>
+          
+        
+
+          
+          
+
+          
+          
             <section class="main__sub-section" id="undefined-mixin">
               <h2 class="main__heading--secondary">mixins</h2>
 
               
+              
+                <section class="main__item  item" id="mixin-fails">
+
+<h3 class="item__heading">
+  
+
+  <a class="item__name" href="#mixin-fails">fails</a>
+
+  
+
+  
+</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="relative  clear  code--collapsed">
+  <pre class="item__code  item__code--togglable  language-scss"
+    data-current-state="collapsed"
+    data-expanded="@mixin fails() { 
+  base();
+  base();
+ }"
+    data-collapsed="@mixin fails() { ... }"><code>@mixin fails() { ... }</code></pre>
+
+  
+</div>
+
+
+
+
+
+
+  
+    
+    
+  <h3 class="item__sub-heading">Description</h3>
+
+  <div class="item__description"><p>Some mixin that uses the <code>base</code> function multiple times</p>
+</div>
+
+
+  
+    
+    <h3 class="item__sub-heading">Parameters</h3>
+
+
+
+  <p>None.</p>
+
+
+
+  
+    
+    
+
+  
+    
+    
+
+  
+    
+    
+
+  
+    
+    
+
+
+  
+    
+      
+      <h3 class="item__sub-heading">Requires</h3>
+      <ul class="list-unstyled">
+    
+
+    
+      <li>
+        <a href="#function-base"><code>base</code></a>
+        
+      </li>
+    
+  
+
+
+
+  
+    
+
+    
+      <li>
+        <a href="#function-base"><code>base</code></a>
+        
+      </li>
+    
+  
+
+
+
+
+</ul>
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+
+  
+    
+    
+
+
+
+
+  
+    
+    
+
+  
+    
+    
+  
+    
+    
+  <h3 class="item__sub-heading">Author</h3>
+
+  <ul class="list-unstyled">
+    
+      <li><p>Denis Mir</p>
+</li>
+    
+  </ul>
+
+
+  
+
+
+
+</section>
+              
+                <section class="main__item  item" id="mixin-works">
+
+<h3 class="item__heading">
+  
+
+  <a class="item__name" href="#mixin-works">works</a>
+
+  
+
+  
+</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="relative  clear  code--collapsed">
+  <pre class="item__code  item__code--togglable  language-scss"
+    data-current-state="collapsed"
+    data-expanded="@mixin works() { 
+  base();
+  base();
+ }"
+    data-collapsed="@mixin works() { ... }"><code>@mixin works() { ... }</code></pre>
+
+  
+</div>
+
+
+
+
+
+
+  
+    
+    
+  <h3 class="item__sub-heading">Description</h3>
+
+  <div class="item__description"><p>Some mixin that uses the <code>base</code> function multiple times</p>
+</div>
+
+
+  
+    
+    <h3 class="item__sub-heading">Parameters</h3>
+
+
+
+  <p>None.</p>
+
+
+
+  
+    
+    
+
+  
+    
+    
+
+  
+    
+    
+
+  
+    
+    
+
+
+  
+    
+      
+      <h3 class="item__sub-heading">Requires</h3>
+      <ul class="list-unstyled">
+    
+
+    
+      <li>
+        <a href="#function-base"><code>base</code></a>
+        
+      </li>
+    
+  
+
+
+
+
+</ul>
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+
+  
+    
+    
+
+
+
+
+  
+    
+    
+
+  
+    
+    
+  
+    
+    
+  <h3 class="item__sub-heading">Author</h3>
+
+  <ul class="list-unstyled">
+    
+      <li><p>Denis Mir</p>
+</li>
+    
+  </ul>
+
+
+  
+
+
+
+</section>
               
                 <section class="main__item  item" id="mixin-todomixin">
 
